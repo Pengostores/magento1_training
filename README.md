@@ -13,3 +13,5 @@ http://connect20.magentocommerce.com/community/HelloWired_Free_Theme_1_4
 #### Desactivar caché
 
 #### Editar página de inicio
+
+#### Editar Estilo

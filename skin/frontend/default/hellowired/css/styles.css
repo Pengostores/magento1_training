@@ -26,7 +26,7 @@
 /* Reset ================================================================================= */
 * { margin:0; padding:0; }
 
-body          { background:#e0e0e0 ; font:12px/1.55 arial, helvetica, sans-serif; color:#444; text-align:center;  }
+body          { background:#e0e0e0 ; font:12px/1.55 arial, helvetica, sans-serif; font-family: 'Montserrat', sans-serif; font-size: 16px; color:#444; text-align:center;  }
 
 img           { border:0; vertical-align:top; }
 
@@ -486,7 +486,7 @@ tr.tax-details-first td { border-top:1px solid #d2d8db; }
 .cms-links ul, .cms-links ul li { display:inline; float:left; }
 .cms-links li { padding-right: 10px; margin-right: 10px; background:url(../images/background/divider_top.gif) no-repeat right center; }
 .cms-links li.last { margin-right:0px;padding-right:0px; background: none;}
-.cms-links li.welcome { color: #f88613;font-weight: bold; }
+.cms-links li.welcome { color: #1B649A;font-weight: bold; }
 .cms-links li a { color:#999999; }
 .cms-links li a:hover { color: #000; text-decoration: none; }
 
@@ -508,7 +508,7 @@ tr.tax-details-first td { border-top:1px solid #d2d8db; }
 .header-container .top-container { padding:5px 12px; background:#fff; border:1px solid #bbb; border-width:0 1px 1px; text-align:right; }
 
 /********** < Navigation */
-#navigation { background: url(../images/background/menu_bg.gif) no-repeat top left; height: 44px; margin-bottom: 15px; }
+#navigation { background: #2B80CA; border-radius: 1em; height: 44px; margin-bottom: 15px; }
 .nav-container {}
 #nav { float:left; height: 44px; font-size:13px; }
 
@@ -626,8 +626,8 @@ tr.tax-details-first td { border-top:1px solid #d2d8db; }
 
 
 /* Sidebar =============================================================================== */
-.block { background: #fff url(../images/background/block_bg_repeat.gif) repeat-y top left;  margin:0 0 15px; line-height:1.35;padding-right: 0px;}
-.block .block-title {  background: #1f1f1f url(../images/background/block_title_alt.gif) no-repeat; padding: 10px 8px 8px 10px; margin-right: 0px;}
+.block { border-radius: 0.5em 0 0 0; background: #fff url(../images/background/block_bg_repeat.gif) repeat-y top left;  margin:0 0 15px; line-height:1.35;padding-right: 0px;}
+.block .block-title {  background: #2B80CA; border-radius: 0.5em 0 0 0; padding: 10px 8px 8px 10px; margin-right: 0px;}
 .block .block-title strong { display:block; font:bold 12px/1.5 Arial, Helvetica, sans-serif; text-transform:uppercase; color:#fff;text-shadow: 0px -1px #000; }
 .block .block-title strong span {}
 .block .block-title a { text-decoration:none !important; }
@@ -674,7 +674,7 @@ tr.tax-details-first td { border-top:1px solid #d2d8db; }
 .block-layered-nav { border:0; }
 .block-layered-nav .block-title { }
 .block-layered-nav .block-content { padding:0; }
-.block-layered-nav .block-subtitle { margin:0;  font-size:12px; font-weight:bold; padding:2px 10px; color:#333; }
+.block-layered-nav .block-subtitle { margin:0;  font-size:12px; font-weight:bold; padding:2px 10px; color:#2B80CA; }
 .block-layered-nav dt { font-weight:bold; border-top:1px solid #fff; padding:8px 10px 0 10px; font-size:12px; }
 .block-layered-nav dd { padding:0 10px 8px 10px; border-bottom:1px solid #ddd; }
 .block-layered-nav dd li { line-height:1.35; margin:0 0 3px; }
@@ -1605,9 +1605,9 @@ f/********** Product Prices > */
 .footer li { display: block; padding:0 5px 5px 0; margin:0 3px 0 0; }
 .footer .links li.last { background:none !important; padding-right:0 !important; }
 
-.copyright {  -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px;position:relative; clear:both; border-top: 1px solid #ddd;  background: #333; padding: 0px 20px;  height: 40px;  }
+.copyright {  -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px;position:relative; clear:both; border-top: 1px solid #ddd;  background: #2B80CA; padding: 0px 20px;  height: 40px;  }
 .copyright { color: #CCC; }
-.copyright address,.copyright .f-right {line-height: 40px; }
+.copyright address,.copyright .f-right {line-height: 40px; color:#fff; }
 .copyright .f-right img { padding-top: 8px;}
 .copyright a { color: #fff; }
 .copyright .bugs { margin:0;  }
